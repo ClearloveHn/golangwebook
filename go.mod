@@ -4,6 +4,8 @@ go 1.22.2
 
 require (
 	github.com/IBM/sarama v1.43.2
+	github.com/aws/aws-sdk-go v1.53.11
+	github.com/bwmarrin/snowflake v0.3.0
 	github.com/ecodeclub/ekit v0.0.9
 	github.com/gotomicro/redis-lock v0.0.3
 	github.com/prometheus/client_golang v1.19.1
@@ -37,6 +39,7 @@ require (
 	github.com/jcmturner/rpc/v2 v2.0.3 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
+	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/klauspost/compress v1.17.8 // indirect
 	github.com/montanaflynn/stats v0.0.0-20171201202039-1bf9dbcd8cbe // indirect
 	github.com/pierrec/lz4/v4 v4.1.21 // indirect
